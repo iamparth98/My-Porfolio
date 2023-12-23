@@ -16,8 +16,8 @@ function Nav() {
           Parth Tiwari
         </motion.span>
         <div className="social">
-          <img src="../../../public/linkedin.png" alt="linkedin logo" />
-          <img src="../../../public/github.png" alt="github logo" />
+          <img src="/linkedIn.png" alt="linkedin logo" />
+          <img src="/github.png" alt="github logo" />
         </div>
       </div>
     </motion.div>

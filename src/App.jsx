@@ -5,18 +5,16 @@ import Nav from "./components/nav/Nav";
 function App() {
   return (
     <div>
-      <section className="homepage">
+      <section className="HomePage">
         <Nav />
         <Hero />
       </section>
-      <section>Parallax</section>
-      <section>Hero</section>
-      <section>Parallax</section>
+      <section id="Services">Parallax</section>
       <section>Services</section>
-      <section>Portfolio1</section>
+      <section id="Portfolio"></section>
       <section>Portfolio2</section>
       <section>Portfolio3</section>
-      <section>Contact</section>
+      <section id="Contact">Contact</section>
     </div>
   );
 }
