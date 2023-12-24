@@ -11,6 +11,9 @@ html {
 }
 
 body {
+  padding: 0;
+  bottom: 0;
+  margin: 0;
   background-color: #0c0c1d;
   color: lightgray;
 }
@@ -24,5 +27,5 @@ section {
   scroll-behavior: smooth;
   scroll-snap-align: center;
   height: 100vh;
-  width: 100vw;
+  width: 100%;
 }
