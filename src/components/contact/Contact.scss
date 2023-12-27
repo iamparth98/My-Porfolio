@@ -31,8 +31,6 @@
     position: absolute;
     margin: auto;
     z-index: -1;
-
-    //   background-color: rebeccapurple;
   }
   form {
     display: flex;
@@ -56,8 +54,17 @@
       color: black;
       padding: 20px;
       border-radius: 5px;
-      font-weight: normal;
+      font-weight: bold;
+      font-size: 14px;
       cursor: pointer;
     }
+  }
+  .error {
+    text-align: center;
+    color: red($color: #000000);
+  }
+  .success {
+    text-align: center;
+    color: limegreen;
   }
 }
