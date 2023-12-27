@@ -2,6 +2,7 @@ import "./global.scss";
 import Hero from "./components/hero/Hero";
 import Nav from "./components/nav/Nav";
 import Parallax from "./components/parallax/parallax";
+import Portfolio from "./components/portfolio/Portfolio";
 
 function App() {
   return (
@@ -10,16 +11,15 @@ function App() {
         <Nav />
         <Hero />
       </section>
-      <section>
+      {/* <section id="Services">
         <Parallax type={"services"} />
       </section>
-      <section id="Services">Services</section>
-      <section>
+      <section>Services</section> */}
+      <section id="Portfolio">
         <Parallax type={"portfolio"} />
       </section>
-      <section id="Portfolio"></section>
-      <section>Portfolio2</section>
-      <section>Portfolio3</section>
+      <Portfolio />
+
       <section id="Contact">Contact</section>
     </div>
   );

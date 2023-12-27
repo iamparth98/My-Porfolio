@@ -51,10 +51,10 @@ function Hero() {
           <div className="Title">
             <motion.h1 variants={textVariants}>Frontend Developer,</motion.h1>
             <h3>
-              passionate about translating ideas into visually appealing and
-              user-friendly websites. With a creative touch and precise coding,
-              I bring digital experiences to life. Let&apos;s turn your vision
-              into a standout online presence.
+              with expertise in crafting engaging and user-friendly web
+              experiences. I specialize in bringing ideas to life through clean
+              and efficient code. Explore my portfolio to discover the exciting
+              projects I&apos;ve worked on.
             </h3>
           </div>
 
