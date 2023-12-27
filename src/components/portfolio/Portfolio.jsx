@@ -34,17 +34,22 @@ const portfolioList = [
 
 const SingleProject = ({ project }) => {
   const ref = useRef();
+  const { scrollYProgress } = useScroll({
+    target: ref,
+    offset: ["start end", "end start"],
+  });
+  const y = useTransform(scrollYProgress, [0, 1], [300, -300]);
   return (
-    <section ref={ref} className="container">
+    <section className="container">
       <div className="wrapper">
         <div className="imgContainer">
-          <img src={project.img} alt="project-Image" />
+          <img src={project.img} alt="project-Image" ref={ref} />
         </div>
-        <div className="textContainer">
+        <motion.div className="textContainer" style={{ y }}>
           <h2>{project.title}</h2>
           <p>{project.desc}</p>
           <button>See Demo</button>
-        </div>
+        </motion.div>
       </div>
     </section>
   );

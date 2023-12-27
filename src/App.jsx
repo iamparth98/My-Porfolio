@@ -3,11 +3,12 @@ import Hero from "./components/hero/Hero";
 import Nav from "./components/nav/Nav";
 import Parallax from "./components/parallax/parallax";
 import Portfolio from "./components/portfolio/Portfolio";
+import Contact from "./components/contact/Contact";
 
 function App() {
   return (
     <div>
-      <section className="HomePage">
+      <section className="Homepage">
         <Nav />
         <Hero />
       </section>
@@ -20,7 +21,9 @@ function App() {
       </section>
       <Portfolio />
 
-      <section id="Contact">Contact</section>
+      <section id="Contact">
+        <Contact />
+      </section>
     </div>
   );
 }
