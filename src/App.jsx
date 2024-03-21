@@ -1,7 +1,7 @@
 import "./global.scss";
 import Hero from "./components/hero/Hero";
 import Nav from "./components/nav/Nav";
-import Parallax from "./components/parallax/parallax";
+import Parallax from "./components/parallax/Parallax";
 import Portfolio from "./components/portfolio/Portfolio";
 import Contact from "./components/contact/Contact";
 
